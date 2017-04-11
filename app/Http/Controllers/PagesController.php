@@ -2,6 +2,7 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use App\Photo;
 use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
