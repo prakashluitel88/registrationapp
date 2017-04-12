@@ -1,7 +1,5 @@
 # Laravel Registration App
-
-# Laravel working example
-    http://localhost/phptest/registration/public/
+    Working Example:  http://www.lprakash.com.np/project/registration/public/
 
 * Back-end
     * Dashboard
