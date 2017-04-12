@@ -20,7 +20,7 @@
 	Composer
 	Node JS
 
-##Steps:
+## Steps:
     *  composer dump-autoload
     *  composer install --no-scripts
     *  Create database in mysql server with utf-8 collation(uft8_general_ci)
