@@ -1,4 +1,4 @@
-# Laravel Registation App
+# Laravel Registration App
 
 * Back-end
     * Dashboard
