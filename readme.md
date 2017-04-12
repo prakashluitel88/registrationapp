@@ -9,11 +9,14 @@ Pass: admin123
     * Dashboard
 	* Manage photos and photo albums.
     * DataTables dynamic table sorting and filtering.
-    ![Alt text](registrationapp/public/gitfiles/admin-area.png "Admin Dashboard")
-    ![Alt text](registrationapp/public/gitfiles/admin-dashboard.png "Admin Inner Page")
+    ![Alt text](http://www.lprakash.com.np/project/registration/public/gitfiles/admin-area.png "Admin Dashboard")
+    ![Alt text](http://www.lprakash.com.np/project/registration/public/gitfiles/admin-dashboard.png "Admin Inner Page")
 * Front-end
 	* User login, registration
 	* View Photos
+	![Alt text](http://www.lprakash.com.np/project/registration/public/gitfiles/homepage.png "Admin Dashboard")
+    ![Alt text](http://www.lprakash.com.np/project/registration/public/gitfiles/login.png "Admin Inner Page")
+    ![Alt text](http://www.lprakash.com.np/project/registration/public/gitfiles/registration.png "Admin Dashboard")
 * Packages included:
 	* Datatables Bundle
 
