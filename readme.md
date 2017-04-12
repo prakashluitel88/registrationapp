@@ -1,5 +1,6 @@
 # Laravel Registration App
-    Working Example:  http://www.lprakash.com.np/project/registration/public/
+Working Example:
+http://www.lprakash.com.np/project/registration/public/
 
 * Back-end
     * Dashboard
