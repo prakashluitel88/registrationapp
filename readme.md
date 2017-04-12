@@ -9,8 +9,8 @@ Pass: admin123
     * Dashboard
 	* Manage photos and photo albums.
     * DataTables dynamic table sorting and filtering.
-    ![Alt text](/gitfiles/admin-dashboard.png?raw=true "Admin Dashboard")
-    ![Alt text](/gitfiles/admin-area.png?raw=true "Admin Inner Page")
+    ![Alt text](registrationapp/public/gitfiles/admin-area.png "Admin Dashboard")
+    ![Alt text](registrationapp/public/gitfiles/admin-dashboard.png "Admin Inner Page")
 * Front-end
 	* User login, registration
 	* View Photos
