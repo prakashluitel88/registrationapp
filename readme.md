@@ -1,6 +1,9 @@
 # Laravel Registration App
 Working Example:
 http://www.lprakash.com.np/project/registration/public/
+Demo
+user: prakash@luitel.com
+Pass: admin123
 
 * Back-end
     * Dashboard
