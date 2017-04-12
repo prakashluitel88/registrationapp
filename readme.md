@@ -1,5 +1,8 @@
 # Laravel Registration App
 
+# Laravel working example
+    http://localhost/phptest/registration/public/
+
 * Back-end
     * Dashboard
 	* Manage photos and photo albums.
@@ -36,3 +39,6 @@
 ## License
 
 *  This is free software distributed under the terms of the MIT license
+
+## TODO
+    * Remove public from live url
