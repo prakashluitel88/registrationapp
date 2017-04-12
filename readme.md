@@ -41,3 +41,7 @@ http://www.lprakash.com.np/project/registration/public/
 
 ## TODO
     * Remove public from live url
+
+* Any queries regarding snippet please send email to  prakashluitel88@gmail.com.
+
+http://lprakash.com.np
