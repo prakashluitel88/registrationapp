@@ -31,7 +31,7 @@
     *  php artisan db:seed
     *  In command, go to app directory and run as php artisan serve
     *  In Browser, use url and visit
-    *  You can use demo user and pass prakash@luitel.com and admin respectively
+    *  You can use demo user and pass prakash@luitel.com and admin123 respectively
 
 ## License
 
