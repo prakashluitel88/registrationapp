@@ -1,0 +1,1 @@
+This is User SMS Alert message.

@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Article;
 use App\PhotoAlbum;
 use DB;
+use PhpImap;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller {
 
@@ -28,5 +30,44 @@ class HomeController extends Controller {
 
 		return view('pages.home', compact('articles', 'photoAlbums'));
 	}
+
+    public function inboxRead()
+    {
+        $mailbox = new PhpImap\Mailbox('{pop.europe.secureserver.net:110/pop}INBOX', 'feedback@vackerglobal.com', '434535cron5dtgtab-e', __DIR__);
+
+// Read all messaged into an array:
+        $mailsIds = $mailbox->searchMailbox('ALL');
+        if(!$mailsIds) {
+            die('Mailbox is empty');
+        }
+
+// Get the first message and save its attachment(s) to disk:
+        //$mail = $mailbox->getMail($mailsIds[175]);
+        $mail = $mailbox->getMail($mailsIds[175])->textPlain;
+
+        echo '<pre>';
+        var_dump(preg_replace( "/[\r\n]+/", "\n", $mail ));
+        //var_dump(explode("\n",$mail));
+        echo "\n\n\n\n\n";
+        //var_dump($mail->getAttachments());
+
+        // @TODO Send Email to User Email Address
+        Mail::send('emails.useralert', ['key' => 'value'], function($message)
+        {
+            $message->to('prakash.kl@vackerglobal.com', 'DL Alert System')->subject('User Alert!');
+        });
+
+        // @TODO Send Email to SMS Alert Email Address
+        Mail::send('emails.smsalert', ['key' => 'value'], function($message)
+        {
+            $message->to('prakash.kl@vackerglobal.com', 'DL Alert System')->subject('SMS Alert!');
+        });
+
+        // @TODO Send Email to Phone Call Alert Email Address
+        Mail::send('emails.phonealert', ['key' => 'value'], function($message)
+        {
+            $message->to('prakash.kl@vackerglobal.com', 'DL Alert System')->subject('Phone Call Alert!');
+        });
+    }
 
 }

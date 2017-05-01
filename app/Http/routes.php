@@ -11,6 +11,7 @@ Route::pattern('slug', '[0-9a-z-_]+');
 /***************    Site routes  **********************************/
 Route::get('/', 'HomeController@index');
 Route::get('home', 'HomeController@index');
+Route::get('mailparse', 'HomeController@inboxRead');
 Route::get('gallery', 'PagesController@gallery');
 Route::get('gallery/create', 'GalleryController@create');
 Route::get('gallery/upload', 'GalleryController@store');
